@@ -23,6 +23,8 @@ add_filter('wp_nav_menu_items', 'add_link_admin', 10, 2);
     }
 
         return $items;
+
+        
 }  
 
 add_filter('wpcf7_autop_or_not', '__return_false');
